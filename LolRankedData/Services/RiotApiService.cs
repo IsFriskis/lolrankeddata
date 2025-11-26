@@ -14,6 +14,12 @@ public class RiotApiService : IRiotApiService, IDisposable
     private string _region = "euw1";
     private bool _disposed;
 
+    /// <summary>
+    /// Delay between API requests in milliseconds to respect Riot API rate limits.
+    /// Default is 50ms which allows ~20 requests per second (well under the 100 req/2min limit).
+    /// </summary>
+    private const int RateLimitDelayMs = 50;
+
     // Region to routing value mapping for regional endpoints
     private static readonly Dictionary<string, string> RegionRouting = new()
     {
@@ -208,7 +214,7 @@ public class RiotApiService : IRiotApiService, IDisposable
             }
 
             // Rate limiting - Riot API has rate limits
-            await Task.Delay(50);
+            await Task.Delay(RateLimitDelayMs);
         }
 
         return games;
