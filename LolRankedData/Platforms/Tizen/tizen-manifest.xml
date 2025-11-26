@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.companyname.lolrankeddata" version="1.0.0" api-version="9" xmlns="http://tizen.org/ns/packages">
+    <profile name="common" />
+    <ui-application appid="com.companyname.lolrankeddata" exec="LolRankedData.dll" multiple="false" nodisplay="false" taskmanage="true" type="dotnet" launch_mode="single">
+        <label>LolRankedData</label>
+        <icon>appicon.xhigh.png</icon>
+        <metadata key="http://tizen.org/metadata/prefer_dotnet_aot" value="true" />
+        <splash-screens />
+    </ui-application>
+    <shortcut-list />
+    <privileges />
+    <provides-appdefined-privileges />
+    <feature name="http://tizen.org/feature/screen.size.all" />
+</manifest>
