@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    
+    <!-- Primary Colors -->
+    <Color x:Key="Primary">#c9aa71</Color>
+    <Color x:Key="PrimaryDark">#a08858</Color>
+    <Color x:Key="PrimaryDarkText">#1a1a2e</Color>
+    
+    <!-- Background Colors -->
+    <Color x:Key="Background">#1a1a2e</Color>
+    <Color x:Key="BackgroundSecondary">#16213e</Color>
+    <Color x:Key="BackgroundTertiary">#0f3460</Color>
+    
+    <!-- Text Colors -->
+    <Color x:Key="TextPrimary">White</Color>
+    <Color x:Key="TextSecondary">#a09b8c</Color>
+    <Color x:Key="TextMuted">#666666</Color>
+    
+    <!-- Status Colors -->
+    <Color x:Key="Success">#28a745</Color>
+    <Color x:Key="Danger">#dc3545</Color>
+    <Color x:Key="Warning">#ffc107</Color>
+    <Color x:Key="Info">#17a2b8</Color>
+    
+    <!-- Rank Colors -->
+    <Color x:Key="RankIron">#515151</Color>
+    <Color x:Key="RankBronze">#8c523a</Color>
+    <Color x:Key="RankSilver">#80989d</Color>
+    <Color x:Key="RankGold">#c9aa71</Color>
+    <Color x:Key="RankPlatinum">#4e9996</Color>
+    <Color x:Key="RankEmerald">#009c5f</Color>
+    <Color x:Key="RankDiamond">#576bce</Color>
+    <Color x:Key="RankMaster">#9d48e0</Color>
+    <Color x:Key="RankGrandmaster">#ef3c2f</Color>
+    <Color x:Key="RankChallenger">#f4c874</Color>
+    
+</ResourceDictionary>
